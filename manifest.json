@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Comicify",
+    "version": "0.1",
+    "description": "Comic Sans Every Website! Why? Why not!",
+    "content_scripts": [
+        {
+            "js": ["index.js"],
+            "matches": ["https://*/*"]
+        }
+    ]
+}
